@@ -1,0 +1,192 @@
+{
+  "split": {
+    "total_samples": 138090,
+    "train_samples": 111284,
+    "test_samples": 26806,
+    "train_videos": 400,
+    "test_videos": 100,
+    "seed": 42
+  },
+  "probe": [
+    {
+      "feature": "RGB",
+      "dim": 4096.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.45387065410614014,
+      "spearman_rho": 0.6825916294971194
+    },
+    {
+      "feature": "GT depth",
+      "dim": 1024.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.12544399499893188,
+      "spearman_rho": 0.3565988441042994
+    },
+    {
+      "feature": "RGB + GT depth",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.47812265157699585,
+      "spearman_rho": 0.7005010606713672
+    },
+    {
+      "feature": "RGB + Model 1",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.45410245656967163,
+      "spearman_rho": 0.6835352919114087
+    },
+    {
+      "feature": "RGB + Model 2",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.519524335861206,
+      "spearman_rho": 0.7264078265864706
+    },
+    {
+      "feature": "RGB + Model 3",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.4571725130081177,
+      "spearman_rho": 0.6844401831930016
+    },
+    {
+      "feature": "RGB + Model 4",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.4811209440231323,
+      "spearman_rho": 0.7001528362559926
+    },
+    {
+      "feature": "RGB + Model 5",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.454537570476532,
+      "spearman_rho": 0.6832369116365663
+    },
+    {
+      "feature": "RGB + Model 6.1",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.5195051431655884,
+      "spearman_rho": 0.7248637965587044
+    },
+    {
+      "feature": "RGB + Model 7.1",
+      "dim": 5120.0,
+      "alpha": 1000.0,
+      "ridge_r2": 0.4763859510421753,
+      "spearman_rho": 0.6962045338462333
+    }
+  ],
+  "alignment": [
+    {
+      "feature": "Model 1",
+      "mse_to_gt": 0.9080058320337273,
+      "mean_cosine_to_gt": -0.007309710437803404
+    },
+    {
+      "feature": "Model 2",
+      "mse_to_gt": 0.8905134502030359,
+      "mean_cosine_to_gt": 0.02277319422232823
+    },
+    {
+      "feature": "Model 3",
+      "mse_to_gt": 1.0305944492698988,
+      "mean_cosine_to_gt": 0.01038149450818416
+    },
+    {
+      "feature": "Model 4",
+      "mse_to_gt": 0.1422317449098237,
+      "mean_cosine_to_gt": 0.006552685548287403
+    },
+    {
+      "feature": "Model 5",
+      "mse_to_gt": 0.13025621281696204,
+      "mean_cosine_to_gt": -0.0030193807177691994
+    },
+    {
+      "feature": "Model 6.1",
+      "mse_to_gt": 0.9031630990434598,
+      "mean_cosine_to_gt": -0.003011261238132512
+    },
+    {
+      "feature": "Model 7.1",
+      "mse_to_gt": 0.024973697647411218,
+      "mean_cosine_to_gt": 0.8059831058713097
+    },
+    {
+      "feature": "GT depth",
+      "mse_to_gt": 0.0,
+      "mean_cosine_to_gt": 1.0
+    }
+  ],
+  "index": [
+    {
+      "feature": "Model 1",
+      "token_accuracy": 0.12336790270834888,
+      "sequence_accuracy": 0.001007237185704693,
+      "mean_confidence": 0.3871903112466003
+    },
+    {
+      "feature": "Model 2",
+      "token_accuracy": 0.10584384093113482,
+      "sequence_accuracy": 0.000335745728568231,
+      "mean_confidence": 0.4011797405112851
+    },
+    {
+      "feature": "Model 3",
+      "token_accuracy": 0.1295045885249571,
+      "sequence_accuracy": 0.00022383048571215399,
+      "mean_confidence": 0.6798321698963006
+    },
+    {
+      "feature": "Model 6.1",
+      "token_accuracy": 0.2818119077818399,
+      "sequence_accuracy": 0.004103558904722823,
+      "mean_confidence": 0.3847762587923777
+    }
+  ],
+  "umap_moran": [
+    {
+      "feature": "RGB",
+      "umap_samples": 3000.0,
+      "morans_i": 0.19061777510858496
+    },
+    {
+      "feature": "RGB + Model 1",
+      "umap_samples": 3000.0,
+      "morans_i": 0.21544160756000263
+    },
+    {
+      "feature": "RGB + Model 2",
+      "umap_samples": 3000.0,
+      "morans_i": 0.3434750903599767
+    },
+    {
+      "feature": "RGB + Model 3",
+      "umap_samples": 3000.0,
+      "morans_i": 0.1793307035803483
+    },
+    {
+      "feature": "RGB + Model 4",
+      "umap_samples": 3000.0,
+      "morans_i": 0.47164603074662353
+    },
+    {
+      "feature": "RGB + Model 5",
+      "umap_samples": 3000.0,
+      "morans_i": 0.1815379660523992
+    },
+    {
+      "feature": "RGB + Model 6.1",
+      "umap_samples": 3000.0,
+      "morans_i": 0.372331333626807
+    },
+    {
+      "feature": "RGB + Model 7.1",
+      "umap_samples": 3000.0,
+      "morans_i": 0.34965982929153416
+    }
+  ]
+}
