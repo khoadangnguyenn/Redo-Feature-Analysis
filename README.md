@@ -45,7 +45,7 @@ After running, the script will generate the following result files in the `outpu
 - **Plots**:
   - `ridge_r2_probe_bars.png`: Bar chart comparing the R2 of the feature sets (RGB vs RGB + Model).
     
-    ![Ridge R2 Probe Bars](./ridge_r2_probe_bars.png)
+    ![Ridge R2 Probe Bars](./feature_analysis/ridge_r2_probe_bars.png)
   - `umap_moran_feature_snapshot.png`: UMAP plot showing the clustering of data points.
 
-    ![UMAP Moran Feature Snapshot](./umap_moran_feature_snapshot.png)
+    ![UMAP Moran Feature Snapshot](./feature_analysis/umap_moran_feature_snapshot.png)
